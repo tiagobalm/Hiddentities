@@ -1,0 +1,137 @@
+<manifest alg="2" build="2018.1.0.386" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="mnse.com" resolutions="1x" timestamp="1526549378073">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="ocpd.css" crc="4015730958" ref="ocpd"/>
+    <file name="bipolar.css" crc="3982851582" ref="bipolar"/>
+    <file name="index.css" crc="3899069707" ref="index"/>
+    <file name="bpd.css" crc="161133987" ref="bpd"/>
+    <file name="did.css" crc="4219026820" ref="did"/>
+    <file name="schozitypal.css" crc="131762049" ref="schozitypal"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:bipolar:bpd:did:schozitypal:ocpd"/>
+    <file name="museutils.js" crc="340535759" ref="index:bipolar:bpd:did:schozitypal:ocpd"/>
+    <file name="whatinput.js" crc="86476730" ref="index:bipolar:bpd:did:schozitypal:ocpd"/>
+    <file name="museconfig.js" crc="310584261" ref="index:bipolar:bpd:did:schozitypal:ocpd"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:bipolar:bpd:did:schozitypal:ocpd"/>
+    <file name="jquery.scrolleffects.js" crc="39568856" ref="index:bipolar:bpd:did:schozitypal:ocpd"/>
+    <file name="require.js" crc="7928878" ref="index:bipolar:bpd:did:schozitypal:ocpd"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="bipolar:bpd:did:schozitypal:ocpd"/>
+  </folder>
+  <folder name="images">
+    <file name="u2341-4.png" crc="3869088902" ref="index"/>
+    <file name="u2342-4.png" crc="4013285643" ref="index"/>
+    <file name="u2343-4.png" crc="4242195132" ref="index"/>
+    <file name="u2344-4.png" crc="3941733823" ref="index"/>
+    <file name="u2345-4.png" crc="305546237" ref="index"/>
+    <file name="u2346-4.png" crc="76615976" ref="index"/>
+    <file name="u867-4.png" crc="170785349" ref="index"/>
+    <file name="u888-10.png" crc="4087478307" ref="index"/>
+    <file name="u928-4.png" crc="3924165624" ref="index"/>
+    <file name="u870-4.png" crc="4022032717" ref="index"/>
+    <file name="santa claus.jpg" crc="99653738" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u991-4.png" crc="414229376" ref="index"/>
+    <file name="portrait of woman.jpg" crc="4128086588" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u994-4.png" crc="487172791" ref="index"/>
+    <file name="u2240-4.png" crc="4088863789" ref="bipolar"/>
+    <file name="u2241-4.png" crc="4242195132" ref="bipolar"/>
+    <file name="u2242-4.png" crc="3941733823" ref="bipolar"/>
+    <file name="u2243-4.png" crc="305546237" ref="bipolar"/>
+    <file name="u2244-4.png" crc="76615976" ref="bipolar"/>
+    <file name="u3524-4.png" crc="239005883" ref="bipolar"/>
+    <file name="u1060-4.png" crc="36841734" ref="bipolar"/>
+    <file name="video-camera-img.png" crc="192749841" ref="bipolar:bpd:did:schozitypal:ocpd">
+      <caption webpage="bpd" alt=""/>
+      <caption webpage="did" alt=""/>
+      <caption webpage="schozitypal" alt=""/>
+      <caption webpage="ocpd" alt=""/>
+      <caption webpage="bipolar" alt=""/>
+    </file>
+    <file name="video-camera.gif" crc="3929765858" ref="bipolar:bpd:did:schozitypal:ocpd">
+      <caption webpage="bpd" alt=""/>
+      <caption webpage="bpd" alt=""/>
+      <caption webpage="did" alt=""/>
+      <caption webpage="did" alt=""/>
+      <caption webpage="schozitypal" alt=""/>
+      <caption webpage="schozitypal" alt=""/>
+      <caption webpage="ocpd" alt=""/>
+      <caption webpage="ocpd" alt=""/>
+      <caption webpage="bipolar" alt=""/>
+      <caption webpage="bipolar" alt=""/>
+    </file>
+    <file name="u756-4.png" crc="518336750" ref="bipolar"/>
+    <file name="u1099-7.png" crc="4280157499" ref="bipolar"/>
+    <file name="u1180-6.png" crc="3967513112" ref="bipolar"/>
+    <file name="sad-smiley-face-or-emoticon-line-art-icon-for-apps-and-websites.svg" crc="35298369" seo="true" ref="bipolar:bpd:did:schozitypal:ocpd">
+      <caption webpage="bpd" alt=""/>
+      <caption webpage="did" alt=""/>
+      <caption webpage="schozitypal" alt=""/>
+      <caption webpage="ocpd" alt=""/>
+      <caption webpage="bipolar" alt=""/>
+    </file>
+    <file name="sad smiley face or emoticon line art icon for apps and websites_poster_.png" crc="3803972959" ref="bipolar"/>
+    <file name="happy-smiley-face-or-emoticon-line-art-icon-for-apps-and-websites.svg" crc="430091838" seo="true" ref="bipolar:bpd:did:schozitypal:ocpd">
+      <caption webpage="bpd" alt=""/>
+      <caption webpage="did" alt=""/>
+      <caption webpage="schozitypal" alt=""/>
+      <caption webpage="ocpd" alt=""/>
+      <caption webpage="bipolar" alt=""/>
+    </file>
+    <file name="happy smiley face or emoticon line art icon for apps and websites_poster_.png" crc="4027613505" ref="bipolar"/>
+    <file name="u1153-6.png" crc="342876815" ref="bipolar"/>
+    <file name="u3688-4.png" crc="4013285643" ref="bpd"/>
+    <file name="u3692-4.png" crc="4242195132" ref="bpd"/>
+    <file name="u3691-4.png" crc="355250417" ref="bpd"/>
+    <file name="u3690-4.png" crc="305546237" ref="bpd"/>
+    <file name="u3689-4.png" crc="76615976" ref="bpd"/>
+    <file name="u3687-4.png" crc="239005883" ref="bpd"/>
+    <file name="u3683-4.png" crc="36841734" ref="bpd"/>
+    <file name="u3677-4.png" crc="90360033" ref="bpd"/>
+    <file name="u3674-7.png" crc="4280157499" ref="bpd"/>
+    <file name="u3670-6.png" crc="3967513112" ref="bpd"/>
+    <file name="u3676-6.png" crc="342876815" ref="bpd"/>
+    <file name="u3779-4.png" crc="4013285643" ref="did"/>
+    <file name="u3777-4.png" crc="136436937" ref="did"/>
+    <file name="u3780-4.png" crc="3941733823" ref="did"/>
+    <file name="u3781-4.png" crc="305546237" ref="did"/>
+    <file name="u3783-4.png" crc="76615976" ref="did"/>
+    <file name="u3778-4.png" crc="239005883" ref="did"/>
+    <file name="u3824-4.png" crc="36841734" ref="did"/>
+    <file name="u3826-4.png" crc="77679789" ref="did"/>
+    <file name="u3832-7.png" crc="4280157499" ref="did"/>
+    <file name="u3829-6.png" crc="3967513112" ref="did"/>
+    <file name="u3825-6.png" crc="342876815" ref="did"/>
+    <file name="u3857-4.png" crc="4013285643" ref="schozitypal"/>
+    <file name="u3855-4.png" crc="4242195132" ref="schozitypal"/>
+    <file name="u3858-4.png" crc="3941733823" ref="schozitypal"/>
+    <file name="u3859-4.png" crc="305546237" ref="schozitypal"/>
+    <file name="u3861-4.png" crc="4108266705" ref="schozitypal"/>
+    <file name="u3856-4.png" crc="239005883" ref="schozitypal"/>
+    <file name="u3902-4.png" crc="36841734" ref="schozitypal"/>
+    <file name="u3904-4.png" crc="3804932679" ref="schozitypal"/>
+    <file name="u3910-7.png" crc="4280157499" ref="schozitypal"/>
+    <file name="u3907-6.png" crc="3967513112" ref="schozitypal"/>
+    <file name="u3903-6.png" crc="342876815" ref="schozitypal"/>
+    <file name="u3959-4.png" crc="4013285643" ref="ocpd"/>
+    <file name="u3957-4.png" crc="4242195132" ref="ocpd"/>
+    <file name="u3960-4.png" crc="3941733823" ref="ocpd"/>
+    <file name="u3961-4.png" crc="3837221249" ref="ocpd"/>
+    <file name="u3963-4.png" crc="76615976" ref="ocpd"/>
+    <file name="u3958-4.png" crc="239005883" ref="ocpd"/>
+    <file name="u4004-4.png" crc="36841734" ref="ocpd"/>
+    <file name="u4006-4.png" crc="4240469747" ref="ocpd"/>
+    <file name="u4012-7.png" crc="4280157499" ref="ocpd"/>
+    <file name="u4009-6.png" crc="3967513112" ref="ocpd"/>
+    <file name="u4005-6.png" crc="342876815" ref="ocpd"/>
+  </folder>
+  <file name="index.html" crc="3911068944" seo="true" mt="1525258944545" redirect="true"/>
+  <file name="bipolar.html" crc="3784486871" seo="true" mt="1525258813421" redirect="true"/>
+  <file name="bpd.html" crc="483876686" seo="true" mt="1525258826909" redirect="true"/>
+  <file name="did.html" crc="328334352" seo="true" mt="1525258860190" redirect="true"/>
+  <file name="schozitypal.html" crc="4293845415" seo="true" mt="1525258786470" redirect="true"/>
+  <file name="ocpd.html" crc="356861655" seo="true" mt="1525258773802" redirect="true"/>
+</manifest>
