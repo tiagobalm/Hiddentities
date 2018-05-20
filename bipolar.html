@@ -47,19 +47,19 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        </div>
        <img class="colelem" id="u756-4" alt="Bipolar Personality Disorder" width="797" height="76" src="images/u756-4.png?crc=518336750"/><!-- rasterized frame -->
        <div class="clearfix colelem" id="pu1099-7"><!-- group -->
-        <img class="grpelem" id="u1099-7" alt="(Texto sobre o distúrbio em questão) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia nisi eget ultrices ultricies. Vivamus a quam vitae neque venenatis semper interdum at nunc. Nam a odio vel diam faucibus aliquet quis sit amet elit. Nam tempus feugiat ultricies. Sed ultricies vel metus non bibendum. Integer sed ultrices elit. Suspendisse varius ante ut est tempus, quis porta turpis laoreet. Aliquam interdum fringilla metus, eget dictum velit vehicula sit amet. Suspendisse potenti. Maecenas fermentum, lectus quis sollicitudin imperdiet, lacus neque tincidunt augue, nec pellentesque mauris nibh vitae sapien. Integer id ex neque. Duis eu blandit lacus. Nulla dignissim posuere risus eu dictum. Pellentesque interdum purus lacus, eget ultricies tortor imperdiet a." width="550" height="309" src="images/u1099-7.png?crc=4280157499"/><!-- rasterized frame -->
+        <img class="grpelem" id="u1099-7" alt="Texto sobre o distúrbio em questão." width="551" height="285" src="images/u1099-7.png?crc=4280157499"/><!-- rasterized frame -->
         <div class="clearfix grpelem" id="pu1180-6"><!-- column -->
-         <img class="colelem" id="u1180-6" alt="Mouse over to experience these emotions through audio." width="477" height="110" src="images/u1180-6.png?crc=3967513112"/><!-- rasterized frame -->
+         <img class="colelem" id="u1180-6" alt="Mouse over to experience these emotions through audio." width="477" height="58" src="images/u1180-6.png?crc=3967513112"/><!-- rasterized frame -->
          <div class="clearfix colelem" id="pu1120"><!-- group -->
           <div class="rounded-corners clip_frame grpelem" id="u1120"><!-- svg -->
-            <img class="svg" id="u1234" src="icons/svg/happy-4.svg" width="110" height="110" alt="Happy emoticon" onmouseover="playHappySong()" onmouseleave="pauseHappySong()"/>
+            <img class="svg" id="u1234" src="icons/svg/happy-4.svg" width="110" height="110" alt="Happy emoticon" onmouseover="playAudio(happy_song)" onmouseleave="pauseAudio(happy_song)"/>
             <audio id="happy_song" controls loop style="display: none">
               <source src="audio/happy-song.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
             </audio>
           </div>
           <div class="rounded-corners clip_frame grpelem" id="u1130"><!-- svg -->
-            <img class="svg" id="u1227" src="icons/svg/sad.svg" width="111" height="111" alt="Sad emoticon" onmouseover="playSadSong()" onmouseleave="pauseSadSong()()"/>
+            <img class="svg" id="u1227" src="icons/svg/sad.svg" width="111" height="111" alt="Sad emoticon" onmouseover="playAudio(sad_song)" onmouseleave="pauseAudio(sad_song)"/>
             <audio id="sad_song" controls loop style="display: none">
               <source src="audio/sad-song.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
@@ -100,24 +100,14 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 		var video = document.getElementById("video");
 		video.pause();
 	}
-	
-	function playHappySong() {
-		var audio = document.getElementById("happy_song");
+
+  function playAudio(audio_name) {
+		var audio = document.getElementById(audio_name.id);
 		audio.play();
 	}
 	
-	function pauseHappySong() {
-		var audio = document.getElementById("happy_song");
-		audio.pause();
-	}
-	
-	function playSadSong() {
-		var audio = document.getElementById("sad_song");
-		audio.play();
-	}
-	
-	function pauseSadSong() {
-		var audio = document.getElementById("sad_song");
+	function pauseAudio(audio_name) {
+		var audio = document.getElementById(audio_name.id);
 		audio.pause();
 	}
   </script>

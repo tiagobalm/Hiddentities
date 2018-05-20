@@ -51,17 +51,34 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         </div>
         <img class="colelem" id="u4006-4" alt="Obsessive Compulsive Personality Disorder" width="825" height="148" src="images/u4006-4.png?crc=4240469747"/><!-- rasterized frame -->
         <div class="clearfix colelem" id="pu4012-7"><!-- group -->
-         <img class="grpelem" id="u4012-7" alt="(Texto sobre o distúrbio em questão) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia nisi eget ultrices ultricies. Vivamus a quam vitae neque venenatis semper interdum at nunc. Nam a odio vel diam faucibus aliquet quis sit amet elit. Nam tempus feugiat ultricies. Sed ultricies vel metus non bibendum. Integer sed ultrices elit. Suspendisse varius ante ut est tempus, quis porta turpis laoreet. Aliquam interdum fringilla metus, eget dictum velit vehicula sit amet. Suspendisse potenti. Maecenas fermentum, lectus quis sollicitudin imperdiet, lacus neque tincidunt augue, nec pellentesque mauris nibh vitae sapien. Integer id ex neque. Duis eu blandit lacus. Nulla dignissim posuere risus eu dictum. Pellentesque interdum purus lacus, eget ultricies tortor imperdiet a." width="550" height="309" src="images/u4012-7.png?crc=4280157499"/><!-- rasterized frame -->
+         <img class="grpelem" id="u4012-7" alt="Texto sobre o distúrbio em questão." width="550" height="285" src="images/u4012-7.png?crc=4280157499"/><!-- rasterized frame -->
          <div class="clearfix grpelem" id="pu4009-6"><!-- column -->
-          <img class="colelem" id="u4009-6" alt="Mouse over to experience these emotions through audio (estes dois emoji podem variar consoante o distúrbio em questão. Ao interagir com o emoji, uma música alusiva ao distúrbio representada pelo emoji em questão, começará a tocar) " width="477" height="110" src="images/u4009-6.png?crc=3967513112"/><!-- rasterized frame -->
+          <img class="colelem" id="u4009-6" alt="Mouse over to experience these emotions through audio." width="477" height="58" src="images/u4009-6.png?crc=3967513112"/><!-- rasterized frame -->
           <div class="clearfix colelem" id="pu4000"><!-- group -->
            <div class="rounded-corners clip_frame grpelem" id="u4000"><!-- svg -->
-            <img class="svg" id="u4001" src="images/sad-smiley-face-or-emoticon-line-art-icon-for-apps-and-websites.svg?crc=35298369" width="110" height="110" alt="" data-mu-svgfallback="images/sad%20smiley%20face%20or%20emoticon%20line%20art%20icon%20for%20apps%20and%20websites_poster_.png?crc=3803972959"/>
+            <img class="svg" id="u3821" src="icons/svg/angry-1.svg" width="110" height="110" alt="Angry emoticon" onmouseover="playAudio(angry_song)" onmouseleave="pauseAudio(angry_song)"/>
+            <audio id="angry_song" controls loop style="display: none">
+              <source src="audio/frustation-song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
            </div>
            <div class="rounded-corners clip_frame grpelem" id="u4010"><!-- svg -->
-            <img class="svg" id="u4011" src="images/happy-smiley-face-or-emoticon-line-art-icon-for-apps-and-websites.svg?crc=430091838" width="111" height="111" alt="" data-mu-svgfallback="images/happy%20smiley%20face%20or%20emoticon%20line%20art%20icon%20for%20apps%20and%20websites_poster_.png?crc=4027613505"/>
+            <img class="svg" id="u3831" src="icons/svg/crying.svg" width="110" height="110" alt="Crying emoticon" onmouseover="playAudio(sad_song)" onmouseleave="pauseAudio(sad_song)"/>
+            <audio id="sad_song" controls loop style="display: none">
+              <source src="audio/sad-song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
            </div>
           </div>
+          <div class="clearfix colelem" id="pu4000"><!-- group -->
+            <div class="rounded-corners clip_frame grpelem" id="u4000" style="margin-left: 110px"><!-- svg -->
+             <img class="svg" id="u3821" src="icons/svg/scare.svg" width="110" height="110" alt="Anxiety emoticon" onmouseover="playAudio(anxiety_song)" onmouseleave="pauseAudio(anxiety_song)"/>
+             <audio id="anxiety_song" controls loop style="display: none">
+              <source src="audio/anxiety-song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+             </audio>
+             </div>
+           </div>
          </div>
         </div>
        </div>
@@ -96,6 +113,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 	function pauseVideo() {
 		var video = document.getElementById("video");
 		video.pause();
+	}
+
+  function playAudio(audio_name) {
+		var audio = document.getElementById(audio_name.id);
+		audio.play();
+	}
+	
+	function pauseAudio(audio_name) {
+		var audio = document.getElementById(audio_name.id);
+		audio.pause();
 	}
   </script>
   <script type="text/javascript">
